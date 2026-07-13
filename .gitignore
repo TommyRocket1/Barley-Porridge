@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+
+# Run directories
+run/
+runs/
+run-data/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.eclipse/
+bin/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store

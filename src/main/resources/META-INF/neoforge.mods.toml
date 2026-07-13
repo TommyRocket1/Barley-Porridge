@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="barleyporridge"
+version="1.0.0"
+displayName="Barley Porridge"
+description='''A hearty bowl of barley porridge, cooked up from Biomes O' Plenty barley, a bucket of milk, and a bowl.'''
+authors="TommyRocket1"
+
+[[dependencies.barleyporridge]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.barleyporridge]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.barleyporridge]]
+modId="biomesoplenty"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
