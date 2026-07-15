@@ -32,7 +32,7 @@
         "effects": [
           {
             "effect": {
-              "id": "farmersdelight:comfort",
+              "id": "farmersdelight:nourishment",
               "duration": 1200
             },
             "probability": 1.0

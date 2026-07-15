@@ -30,7 +30,7 @@ With [Farmer's Delight](https://modrinth.com/mod/farmers-delight) installed, Bar
 | `minecraft:milk_bucket` | ×1 |
 | Serve with | `minecraft:bowl` |
 
-Porridge cooked this way is extra hearty: eating it grants **Comfort for 1 minute** (Farmer's Delight's status effect). Porridge from the regular crafting grid has no effect — only the slow-simmered kind. Both integrations are data-driven and conditional, so any combination of BOP / Farmer's Delight being installed or absent works fine.
+Porridge cooked this way is extra hearty: eating it grants **Nourishment for 1 minute** (Farmer's Delight's status effect). Porridge from the regular crafting grid has no effect — only the slow-simmered kind. Both integrations are data-driven and conditional, so any combination of BOP / Farmer's Delight being installed or absent works fine.
 
 ## Building
 
