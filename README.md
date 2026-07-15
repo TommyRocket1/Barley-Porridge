@@ -20,6 +20,18 @@ The **empty bucket stays in the crafting grid** after crafting (vanilla milk-buc
 
 The recipe is loaded conditionally via `neoforge:mod_loaded`, so the mod is safe to install without [Biomes O' Plenty](https://modrinth.com/mod/biomes-o-plenty) — the recipe simply won't be available until BOP is present.
 
+## Farmer's Delight compatibility
+
+With [Farmer's Delight](https://modrinth.com/mod/farmers-delight) installed, Barley Porridge can also be simmered in the **Cooking Pot** (shown in its recipe book UI under *Meals*):
+
+| Cooking Pot | |
+|---|---|
+| `biomesoplenty:barley` | ×1 |
+| `minecraft:milk_bucket` | ×1 |
+| Serve with | `minecraft:bowl` |
+
+Porridge cooked this way is extra hearty: eating it grants **Comfort for 1 minute** (Farmer's Delight's status effect). Porridge from the regular crafting grid has no effect — only the slow-simmered kind. Both integrations are data-driven and conditional, so any combination of BOP / Farmer's Delight being installed or absent works fine.
+
 ## Building
 
 ```bash

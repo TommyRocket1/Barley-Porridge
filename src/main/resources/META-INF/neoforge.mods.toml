@@ -4,9 +4,9 @@ license="MIT"
 
 [[mods]]
 modId="barleyporridge"
-version="1.0.0"
+version="1.1.0"
 displayName="Barley Porridge"
-description='''A hearty bowl of barley porridge, cooked up from Biomes O' Plenty barley, a bucket of milk, and a bowl.'''
+description='''A hearty bowl of barley porridge, cooked up from Biomes O' Plenty barley, a bucket of milk, and a bowl. Simmer it in a Farmer's Delight cooking pot for extra comfort.'''
 authors="TommyRocket1"
 
 [[dependencies.barleyporridge]]
@@ -25,6 +25,13 @@ side="BOTH"
 
 [[dependencies.barleyporridge]]
 modId="biomesoplenty"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.barleyporridge]]
+modId="farmersdelight"
 type="optional"
 versionRange="[0,)"
 ordering="NONE"

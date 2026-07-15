@@ -24,10 +24,13 @@ public final class BarleyPorridge {
             .usingConvertsTo(Items.BOWL)
             .build();
 
+    // craftRemainder doubles as Farmer's Delight's serving container: the cooking
+    // pot hands out portions of this meal in exchange for an empty bowl.
     public static final DeferredItem<Item> BARLEY_PORRIDGE = ITEMS.registerSimpleItem(
             "barley_porridge",
             new Item.Properties()
                     .stacksTo(1)
+                    .craftRemainder(Items.BOWL)
                     .food(BARLEY_PORRIDGE_FOOD));
 
     public BarleyPorridge(IEventBus modEventBus) {
