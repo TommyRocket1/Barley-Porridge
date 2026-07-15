@@ -21,25 +21,7 @@
   ],
   "result": {
     "id": "barleyporridge:barley_porridge",
-    "count": 1,
-    "components": {
-      "minecraft:food": {
-        "nutrition": 6,
-        "saturation": 7.2,
-        "using_converts_to": {
-          "id": "minecraft:bowl"
-        },
-        "effects": [
-          {
-            "effect": {
-              "id": "farmersdelight:nourishment",
-              "duration": 1200
-            },
-            "probability": 1.0
-          }
-        ]
-      }
-    }
+    "count": 1
   },
   "container": {
     "id": "minecraft:bowl"

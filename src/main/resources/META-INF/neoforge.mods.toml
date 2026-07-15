@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="barleyporridge"
-version="1.1.0"
+version="1.2.0"
 displayName="Barley Porridge"
 description='''A hearty bowl of barley porridge, cooked up from Biomes O' Plenty barley, a bucket of milk, and a bowl. Simmer it in a Farmer's Delight cooking pot for extra comfort.'''
 authors="TommyRocket1"

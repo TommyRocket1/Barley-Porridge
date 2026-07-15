@@ -30,7 +30,7 @@ With [Farmer's Delight](https://modrinth.com/mod/farmers-delight) installed, Bar
 | `minecraft:milk_bucket` | ×1 |
 | Serve with | `minecraft:bowl` |
 
-Porridge cooked this way is extra hearty: eating it grants **Nourishment for 1 minute** (Farmer's Delight's status effect). Porridge from the regular crafting grid has no effect — only the slow-simmered kind. Both integrations are data-driven and conditional, so any combination of BOP / Farmer's Delight being installed or absent works fine.
+With Farmer's Delight installed, Barley Porridge is a proper meal: eating it grants **Nourishment for 1 minute**, and the effect is listed on its tooltip in the same style Farmer's Delight uses for vanilla soups. The tooltip also makes it discoverable through JEI's tooltip search (`#nourishment`). Without Farmer's Delight the porridge is a plain food — the effect, tooltip, and cooking pot recipe all activate only when it's present, so any combination of BOP / Farmer's Delight being installed or absent works fine.
 
 ## Building
 
