@@ -15,14 +15,17 @@
     {
       "item": "biomesoplenty:barley"
     },
-    [
-      {
-        "item": "minecraft:milk_bucket"
-      },
-      {
-        "item": "farmersdelight:milk_bottle"
-      }
-    ]
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:milk_bucket"
+        },
+        {
+          "item": "farmersdelight:milk_bottle"
+        }
+      ]
+    }
   ],
   "result": {
     "id": "barleyporridge:barley_porridge",
